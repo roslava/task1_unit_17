@@ -14,11 +14,11 @@ $testSelect = select("SELECT * FROM users");
 
 
 //Update
-//$testUpdate = execQuery('UPDATE users SET photo = "https://image.shutterstock.com/image-photo/seintpetersburg-russia-june-29-2016-600w-1580912194.jpg" WHERE id = 37');
+//$testUpdate = execQuery("UPDATE users SET photo = 'https://image.shutterstock.com/image-photo/seintpetersburg-russia-june-29-2016-600w-1580912194.jpg' WHERE name = 'Spider-man'");
 
 
-//Delete
-//$testDelete = execQuery('DELETE FROM users WHERE id = 27');
+////Delete
+//$testDelete = execQuery("DELETE FROM users WHERE name = 'Spider-man'");
 
 
 //Вывод на экран
